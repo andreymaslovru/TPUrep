@@ -1,0 +1,10 @@
+%animation-scroll {
+    transform: translate(0px, 0px);
+    opacity: 0;
+    transition: all .8s ease 0s;
+
+    &._active {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,99 @@
+.footer { 
+    background-color: $footer_bg;
+    padding: 50px 0 50px 0;
+    color: $text-color;
+
+    &__link {
+        text-decoration: none;
+        color: inherit;
+        transition: .2s;
+        &:hover {
+            color: $white;
+            opacity: .5;
+        }
+    }
+
+    &__container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        color: $white;
+        font-weight: 700;
+        padding-left: 15px;
+        
+        border-left: 3px solid $text-color;
+        
+    }
+
+    &__number {
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+    }
+    &__numbers {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-right: 120px;
+    &__img {
+        width: 160px;
+    }
+    &__logo {
+        margin-bottom: 20px;
+    }
+    &__documents {
+        margin-bottom: 20px;
+    }
+
+    &__network {
+        color: inherit;
+        &-img {
+            width: 20px;
+            height: 20px;
+        }
+        &-link {
+            color: inherit;
+        }
+    }
+
+    &__documents {
+        &-img {
+            width: 15px;
+            height: 15px;
+        }
+    }
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-right: 80px;
+    border-left: 1px solid $text-color;
+
+    &__address {
+        margin-bottom: 20px;
+    }
+}
+
+.under {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    background-color: $under__bg;
+    &__text {
+        color: $text-color;
+    }
+}
+
+

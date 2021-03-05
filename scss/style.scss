@@ -1,0 +1,46 @@
+
+@import "var/var";
+@import "var/extend";
+@import "var/mixin";
+@import "templates/main";
+@import "templates/project";
+@import "templates/footer";
+
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa {
+    margin-right: 5px;
+
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 10px 0 10px;
+}
+
+.button {
+    display: block;
+    padding: 12px 20px 12px 20px;
+    border-radius: 20px;
+    color: $white;
+    font-size: 18px;
+    transition: .2s;
+    clear: both;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $footer_bg;
+        border-color: $footer_bg;
+    }
+}
+
+@import "media";
