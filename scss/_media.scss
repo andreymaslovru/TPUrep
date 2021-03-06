@@ -274,3 +274,15 @@
         }
     }
 }
+@media (max-width: 320px) {
+    .under {
+        &__text {
+            padding: 0;
+        }
+    }
+    .menu {
+        &__item {
+            padding: 0;
+        }
+    }
+}

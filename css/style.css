@@ -17,7 +17,7 @@
 }
 
 .main {
-  background-image: url(/image/fon.jpg);
+  background-image: url("../image/fon.jpg");
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
@@ -901,5 +901,14 @@ html, body {
   }
   .under__text {
     font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .under__text {
+    padding: 0;
+  }
+  .menu__item {
+    padding: 0;
   }
 }

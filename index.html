@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TPU</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="../TPU/css/normalize.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
@@ -13,20 +12,21 @@
     />
     <link
       rel="stylesheet"
-      href="/font-awesome-4.7.0/css/font-awesome.min.css"
+      href="../TPU/font-awesome-4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="../TPU/css/style.css" />
   </head>
   <body>
-    <header class="main">
+    <header class="main" id="index">
       <div class="header">
         <div class="container header__container">
           <div class="menu-burger__header">
             <span></span>
           </div>
           <div class="header__menu">
-            <a href="#" class="header__logo">
+            <a href="index.html" class="header__logo">
               <img
-                src="/image/logo-tpu.png"
+                src="image/logo-tpu.png"
                 alt="logo: TPU"
                 class="header__image"
               />
@@ -34,10 +34,12 @@
             <nav class="header__nav">
               <ul class="menu header__menu">
                 <li>
-                  <a href="#about-company" class="menu__item">О компании</a>
+                  <a href="#about_anchor_link" class="menu__item">О компании</a>
                 </li>
                 <li>
-                  <a href="#project" class="menu__item">Научные проекты</a>
+                  <a href="#project_anchor_link" class="menu__item"
+                    >Научные проекты</a
+                  >
                 </li>
                 <li><a href="#" class="menu__item">Поддержать</a></li>
                 <li><a href="#" class="menu__item">Проекты ТПУ</a></li>
@@ -68,11 +70,11 @@
       </div>
     </header>
 
-    <section id="project" class="project">
+    <section class="project" id="project_anchor_link">
       <div class="project__info">
-        <h1 class="project__title _anim-items _anim-no-hide">
+        <h2 class="project__title _anim-items _anim-no-hide">
           Научные проекты
-        </h1>
+        </h2>
         <p class="project__text _anim-items _anim-no-hide">
           Научные направления, которые развивают в Томском Политехническом
           университете - это мега-проекты, способные изменить жизнь на планете в
@@ -81,62 +83,98 @@
       </div>
 
       <a href="#" class="project__grid _anim-items _anim-no-hide">
-        <img class="project__img" src="/image/pic1.jpg" alt="picture: logo1" />
+        <img
+          class="project__img"
+          src="image/pic1.jpg"
+          alt="picture: project-1"
+        />
         <p class="project__img--title">
           Комплексные исследования арктического шлейфа
         </p>
       </a>
       <a href="#" class="project__grid _anim-items _anim-no-hide">
-        <img class="project__img" src="/image/pic2.jpg" alt="picture: logo1" />
+        <img
+          class="project__img"
+          src="image/pic2.jpg"
+          alt="picture: project-2"
+        />
         <p class="project__img--title">Космос</p>
       </a>
       <a href="#" class="project__grid _anim-items _anim-no-hide">
-        <img class="project__img" src="/image/pic3.jpg" alt="picture: logo1" />
+        <img
+          class="project__img"
+          src="image/pic3.jpg"
+          alt="picture: project-3"
+        />
         <p class="project__img--title">Большие данные</p>
       </a>
       <a href="#" class="project__grid _anim-items _anim-no-hide">
-        <img class="project__img" src="/image/pic4.jpg" alt="picture: logo1" />
+        <img
+          class="project__img"
+          src="image/pic4.jpg"
+          alt="picture: project-4"
+        />
         <p class="project__img--title">Особенные люди</p>
       </a>
       <a href="#" class="project__grid _anim-items _anim-no-hide">
-        <img class="project__img" src="/image/pic5.jpg" alt="picture: logo1" />
+        <img
+          class="project__img"
+          src="image/pic5.jpg"
+          alt="picture: project-5"
+        />
         <p class="project__img--title">
           Промышленная томография и неразрушающий контроль
         </p>
       </a>
       <a href="#" class="project__grid _anim-items _anim-no-hide">
-        <img class="project__img" src="/image/pic6.jpg" alt="picture: logo1" />
+        <img
+          class="project__img"
+          src="image/pic6.jpg"
+          alt="picture: project-6"
+        />
         <p class="project__img--title">
           Робототехника и управление распределенными объектами
         </p>
       </a>
       <a href="#" class="project__grid _anim-items _anim-no-hide">
-        <img class="project__img" src="/image/pic7.jpg" alt="picture: logo1" />
+        <img
+          class="project__img"
+          src="image/pic7.jpg"
+          alt="picture: project-7"
+        />
         <p class="project__img--title">Трудноизвлекаемые природные ресурсы</p>
       </a>
       <a href="#" class="project__grid _anim-items _anim-no-hide">
-        <img class="project__img" src="/image/pic8.jpg" alt="picture: logo1" />
+        <img
+          class="project__img"
+          src="image/pic8.jpg"
+          alt="picture: project-8"
+        />
         <p class="project__img--title">Чистая вода</p>
       </a>
       <a href="#" class="project__grid _anim-items _anim-no-hide">
-        <img class="project__img" src="/image/pic9.jpg" alt="picture: logo1" />
+        <img
+          class="project__img"
+          src="image/pic9.jpg"
+          alt="picture: project-9"
+        />
         <p class="project__img--title">Экоэнергетика</p>
       </a>
       <a href="#" class="project__grid _anim-items _anim-no-hide">
-        <img class="project__img" src="/image/pic10.jpg" alt="picture: logo1" />
+        <img
+          class="project__img"
+          src="image/pic10.jpg"
+          alt="picture: project-10"
+        />
         <p class="project__img--title">Ядерные технологии для медицины</p>
       </a>
     </section>
 
-    <footer class="footer" id="about-company">
+    <footer class="footer" id="about_anchor_link">
       <div class="container footer__container">
         <div class="social">
-          <a href="#" class="social__logo">
-            <img
-              class="social__img"
-              src="/image/logo-tpu.png"
-              alt="logo: TPU"
-            />
+          <a href="#index" class="social__logo">
+            <img class="social__img" src="image/logo-tpu.png" alt="logo: TPU" />
           </a>
           <a href="#" class="social__documents footer__link"
             ><i class="fa fa-file-text-o" aria-hidden="true"></i
@@ -186,9 +224,9 @@
       </div>
     </div>
 
-    <script src="/js/jquery-3.6.0.min.js"></script>
-    <script src="/js/menu.js"></script>
-    <script src="/js/anchor.js"></script>
-    <script src="/js/App.js"></script>
+    <script src="../TPU/js/jquery-3.6.0.min.js"></script>
+    <script src="../TPU/js/menu.js"></script>
+    <script src="../TPU/js/anchor.js"></script>
+    <script src="../TPU/js/App.js"></script>
   </body>
 </html>
